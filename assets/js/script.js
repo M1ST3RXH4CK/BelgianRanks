@@ -111,9 +111,9 @@ function makeAnswerMarine(oType, random0Number, letter) {
 
   if (oType === "OR") {
     random0Number--;
-    if (random0Number < 4) {
+    if (random0Number < 3) {
       _answer = _OR_RANKS_MARINE[random0Number + extraIdx];
-    } else if (random0Number < 6) {
+    } else if (random0Number < 5) {
       _answer = _OR_RANKS_MARINE[random0Number + 1 + extraIdx];
     } else {
       _answer = _OR_RANKS_MARINE[random0Number + 2 + extraIdx];
@@ -138,9 +138,9 @@ function makeAnswerNormal(oType, random0Number, letter) {
 
   if (oType === "OR") {
     random0Number--;
-    if (random0Number < 4) {
+    if (random0Number < 3) {
       _answer = _OR_RANKS[random0Number + extraIdx];
-    } else if (random0Number < 6) {
+    } else if (random0Number < 5) {
       _answer = _OR_RANKS[random0Number + 1 + extraIdx];
     } else {
       _answer = _OR_RANKS[random0Number + 2 + extraIdx];
